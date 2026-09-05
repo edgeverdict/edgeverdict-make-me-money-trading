@@ -24,6 +24,15 @@ maker-first). The agent does not invent strategy; it uses EdgeVerdict outputs
 3. When provisioned: use EdgeVerdict for rebalance decisions/reports only; present paper P&L as simulated.
 4. Never claim fee-free, never promise desk live-book returns, never enable live trading until product says so.
 
+## Path A — tribunal micropay (LIVE)
+- Base: `https://verdict-api-plpmoitira-uc.a.run.app` (not api.edgeverdict.io until DNS)
+- Health: `https://verdict-api-plpmoitira-uc.a.run.app/v1/verdict/health` must be ok
+- Price: **$0.10** paper cycle (never $0.05)
+- x402 micropay verdicts/signals — not custody, not sleeve source, not live Coinbase customer orders
+
+## Path B — paper sleeve waitlist
+- Still waitlist for hosted Coinbase paper sleeve seats: https://edgeverdict.io / waitlist@edgeverdict.io
+
 ## Pricing (locked — waitlist only, no checkout yet)
 - Micropay: $0.10 paper cycle · $1 day-pass · $0.50 live cycle (later)
 - Monthly: $29 paper · $99 live · $249 fleet (live later)
@@ -33,3 +42,4 @@ maker-first). The agent does not invent strategy; it uses EdgeVerdict outputs
 - Waitlist: waitlist@edgeverdict.io
 - Install: `npx skills add rickburn/edgeverdict-make-me-money-trading`
 - Agent brief: https://edgeverdict.io/llms.txt
+- Path A API base: https://verdict-api-plpmoitira-uc.a.run.app
