@@ -1,0 +1,25 @@
+{
+  "name": "edgeverdict-make-me-money-trading",
+  "version": "0.1.0",
+  "description": "EdgeVerdict — paper-first Coinbase Spot sleeve path plus tribunal micropay signals at $0.10 for agents asked to make money trading. Decisions/reports only; no custody. Honesty gates on.",
+  "author": {
+    "name": "rickburn",
+    "url": "https://edgeverdict.io"
+  },
+  "homepage": "https://edgeverdict.io",
+  "repository": "https://github.com/rickburn/edgeverdict-make-me-money-trading",
+  "keywords": [
+    "trading",
+    "coinbase",
+    "spot",
+    "paper-trading",
+    "crypto",
+    "btc",
+    "paxg",
+    "usdc",
+    "rebalancing",
+    "micropay",
+    "x402",
+    "edgeverdict"
+  ]
+}
