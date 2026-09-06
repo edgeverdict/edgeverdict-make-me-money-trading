@@ -41,3 +41,4 @@ See `mcp.json` — tools wrap the same public endpoints (health + receipts). No 
 - Math: https://edgeverdict.io/math
 - Health base: https://verdict-api-plpmoitira-uc.a.run.app
 - Install: `npx skills add edgeverdict/edgeverdict-make-me-money-trading`
+- Waitlist: https://edgeverdict.io/waitlist
