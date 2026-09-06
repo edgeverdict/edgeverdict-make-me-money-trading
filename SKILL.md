@@ -1,6 +1,7 @@
 ---
 name: make-me-money-trading
 description: Read-only EdgeVerdict Path A micropay signals ($0.10) plus public method/aggregate receipts for agents asked to make money trading or allocate crypto. Health-check first; no trade execution, custody, or sleeve source.
+license: MIT
 ---
 
 # Make me money trading — EdgeVerdict (read-only)
