@@ -1,35 +1,38 @@
 {
   "name": "edgeverdict-readonly",
   "version": "1.0.0",
-  "description": "Read-only EdgeVerdict tools: Path A health + public receipts method/aggregates. No trade, custody, or sleeve tools.",
+  "description": "Portable read-only EdgeVerdict method and aggregate tools for Path A health and receipts.",
   "homepage": "https://edgeverdict.io",
   "repository": "https://github.com/edgeverdict/edgeverdict-make-me-money-trading",
+  "readOnly": true,
+  "payment": {
+    "path": "A",
+    "protocol": "x402",
+    "amount": "$0.10",
+    "scope": "method card and periodic fee-aware method/aggregate outputs",
+    "receiptStatus": "series pending; ZERO paid",
+    "implementation": "not included"
+  },
   "tools": [
     {
       "name": "edgeverdict_health",
-      "description": "GET Path A tribunal health. Expect {\"status\":\"ok\"} before any paid call.",
+      "description": "Read the public EdgeVerdict service health document.",
       "method": "GET",
       "url": "https://verdict-api-plpmoitira-uc.a.run.app/v1/verdict/health",
       "readOnly": true
     },
     {
       "name": "edgeverdict_receipts_json",
-      "description": "GET public receipts method card JSON (aggregates may be series_status=pending). Scoreboard only — never sleeve params.",
+      "description": "Read the public receipts method card and aggregate status.",
       "method": "GET",
       "url": "https://edgeverdict.io/receipts.json",
-      "readOnly": true
-    },
-    {
-      "name": "edgeverdict_receipts_html",
-      "description": "Public receipts HTML scoreboard URL for humans.",
-      "method": "GET",
-      "url": "https://edgeverdict.io/receipts",
       "readOnly": true
     }
   ],
   "notes": [
-    "Path A micropay signals are $0.10 via x402 on the verdict API — not implemented as a new MCP payment server in this kit.",
-    "Do not add trade, custody, order, or sleeve-parameter tools.",
-    "ZERO external paid customers; series aggregates pending."
+    "These are existing public GET endpoints only.",
+    "Do not add trade, custody, wallet, key, order, or source tools.",
+    "This metadata does not implement a payment, marketplace, or MCP server.",
+    "Path B is a secondary waitlist at https://edgeverdict.io."
   ]
 }

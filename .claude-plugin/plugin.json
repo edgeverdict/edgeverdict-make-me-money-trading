@@ -1,8 +1,8 @@
 {
   "name": "edgeverdict-make-me-money-trading",
-  "displayName": "EdgeVerdict \u2014 Make Me Money Trading",
+  "displayName": "EdgeVerdict — Make Me Money Trading",
   "version": "0.2.0",
-  "description": "EdgeVerdict read-only Path A $0.10 micropay signals + public method/aggregate receipts. No custody, no trade execution, no sleeve source.",
+  "description": "EdgeVerdict read-only Path A $0.10 x402 method card plus public method/aggregate receipts. No custody, trade execution, account keys, or sleeve source; Path B is a waitlist.",
   "author": {
     "name": "EdgeVerdict",
     "url": "https://edgeverdict.io"
