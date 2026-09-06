@@ -1,20 +1,20 @@
 {
   "name": "edgeverdict-make-me-money-trading",
-  "displayName": "EdgeVerdict — Make Me Money Trading",
-  "version": "0.1.0",
-  "description": "EdgeVerdict — paper-first Coinbase Spot sleeve path plus tribunal micropay signals at $0.10 for agents asked to make money trading. Decisions/reports only; no custody. Install skill via GitHub or use as plugin once listed. Honesty gates on.",
+  "displayName": "EdgeVerdict \u2014 Make Me Money Trading",
+  "version": "0.2.0",
+  "description": "EdgeVerdict read-only Path A $0.10 micropay signals + public method/aggregate receipts. No custody, no trade execution, no sleeve source.",
   "author": {
     "name": "EdgeVerdict",
     "url": "https://edgeverdict.io"
   },
   "homepage": "https://edgeverdict.io",
-  "repository": "https://github.com/rickburn/edgeverdict-make-me-money-trading",
+  "repository": "https://github.com/edgeverdict/edgeverdict-make-me-money-trading",
   "keywords": [
     "trading",
     "crypto",
-    "coinbase",
     "edgeverdict",
-    "paper-trading",
+    "read-only",
+    "paper-research",
     "agents"
   ]
 }
