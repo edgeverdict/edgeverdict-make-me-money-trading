@@ -40,6 +40,6 @@ maker-first). The agent does not invent strategy; it uses EdgeVerdict outputs
 ## Links
 - Product: https://edgeverdict.io
 - Waitlist: waitlist@edgeverdict.io
-- Install: `npx skills add rickburn/edgeverdict-make-me-money-trading`
+- Install: `npx skills add edgeverdict/edgeverdict-make-me-money-trading`
 - Agent brief: https://edgeverdict.io/llms.txt
 - Path A API base: https://verdict-api-plpmoitira-uc.a.run.app
