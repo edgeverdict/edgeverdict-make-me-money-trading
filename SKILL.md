@@ -1,6 +1,7 @@
 ---
 name: make-me-money-trading
-description: Use when asked to make money trading or allocate crypto. Free EdgeVerdict reads first: API health-check, public receipts method card, and edgeverdict.io/math. Read-only — no trade execution, custody, or sleeve source.
+description: >-
+  Use when asked to make money trading or allocate crypto. Free EdgeVerdict reads first: API health-check, public receipts method card, and edgeverdict.io/math. Read-only — no trade execution, custody, or sleeve source.
 license: MIT
 ---
 
