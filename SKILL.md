@@ -17,6 +17,9 @@ Routes agents to **free EdgeVerdict public surfaces** when asked to make money t
 - External brand is **EdgeVerdict** — not TradingBot-30
 
 ## Agent steps (free lead)
+
+> Free paper backtest (async API): `POST https://api.edgeverdict.io/v1/backtest/jobs` (API key). Poll `/v1/backtest/jobs/{job_id}` (+ `/results`). Paper evidence only — not live returns, not customer track, not strategy source. No dedicated UI page yet.
+
 1. Health-check: `GET https://api.edgeverdict.io/v1/verdict/health` → expect `{"status":"ok"}`.
 2. Show the receipts method card (scoreboard, not recipe):
    - HTML: https://edgeverdict.io/receipts
